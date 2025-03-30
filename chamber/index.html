@@ -4,11 +4,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="This is the website for the chamber of commerce for Logan Utah">
+    <meta name="Author" content="Nathan Wagstaff">
+    <meta property="og:title" content="The Logan Chamber of Commerce">
+    <meta property="og:type"
+        content="Official website of the Logan Chamber of Commerce. Find the local events and buisnesses associated with the Logan Chamber of Commerce.">
+    <meta property="og:url" content="https://nathanwag15.github.io/wdd230/chamber/">
+    <meta property="og:image" content="images/Logan.png">
+    <title>Logan Chamber of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
-    <p>Hello World</p>
+    <header>
+        <h2>Logan Chamber of Commerce</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="hero-image-wrapper">
+                <!-- <img src="images/logan.png" alt="Logan Utah" class="hero-image"> -->
+                <h2>Welcome!</h2>
+                <div class="hero-section-content-wrapper">
+                    <p>We are the Logan Chamber of Commerce! Thanks for visiting this site. You'll find all the current
+                        events here along with instructions on how to join us!</p>
+                    <div class="link-wrapper">
+                        <a href="join.html" class="button">Join Us!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="spacer60"></div>
+        <section>
+            <div class="current-events-wrapper">
+                <div class="squares-wrapper">
+                    <div class="squares">
+                        <div class="square">
+                            <div class="image-wrapper">
+                                <img src="images/events/iceland.jpg" alt="Super Fries">
+                            </div>
+                            <div class="square-text-wrapper">
+                                <h1>Iceland Trip!</h1>
+                                <h2>Go on an adventure, find yourself in places you have never imagined</h2>
+                                <p>Sign up today!</p>
+                                <a href="#Register" class="button">Register Now!</a>
+                            </div>
+                        </div>
+
+                        <div class="square">
+
+                            <div class="square-text-wrapper">
+                                <h1>Iceland Trip!</h1>
+                                <h2>Go on an adventure, find yourself in places you have never imagined</h2>
+                                <p>Sign up today!</p>
+                                <a href="#Register" class="button">Register Now!</a>
+                            </div>
+                            <div class="image-wrapper">
+                                <img src="images/events/iceland.jpg" alt="Super Fries">
+                            </div>
+                        </div>
+                        <div class="square">
+                            <div class="image-wrapper">
+                                <img src="images/events/iceland.jpg" alt="Super Fries">
+                            </div>
+                            <div class="square-text-wrapper">
+                                <h1>Iceland Trip!</h1>
+                                <h2>Go on an adventure, find yourself in places you have never imagined</h2>
+                                <p>Sign up today!</p>
+                                <a href="#Register" class="button">Register Now!</a>
+                            </div>
+                        </div>
+
+                        <div class="square">
+
+                            <div class="square-text-wrapper">
+                                <h1>Iceland Trip!</h1>
+                                <h2>Go on an adventure, find yourself in places you have never imagined</h2>
+                                <p>Sign up today!</p>
+                                <a href="#Register" class="button">Register Now!</a>
+                            </div>
+                            <div class="image-wrapper">
+                                <img src="images/events/iceland.jpg" alt="Super Fries">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="spacer60"></div>
+        <section class="weather-section">
+            <div class="weather-wrapper">
+                <h1>Current Weather: </h1>
+                <p>60 Degrees Ferenheight</p>
+            </div>
+        </section>
+        <section class="company-spotlight">
+            <div>
+                <h1>Company A advertisement</h1>
+            </div>
+            <p>This is an advertisement for company A.</p>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright-wrapper">
+            Copyright &#169;<span id="currentyear"></span> Nathan Wagstaff Utah USA
+        </p>
+        <p>
+            This is a project for WDD230
+        </p>
+        <p>Contact me: natewagstaff21@gmail.com</p>
+        <p>
+            Last Modified <span id="lastmodified"></span>
+        </p>
+    </footer>
+
 </body>
 
 </html>

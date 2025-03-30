@@ -1,0 +1,42 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #FBFAF7;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #221F38;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #435836;
+}
+
+.primary-color {
+    color: #221F38;
+}
+
+.secondary-color {
+    background-color: #221F38;
+    color: #FBFAF7;
+
+}
+
+.accent-color {
+    color: #435836;
+}
