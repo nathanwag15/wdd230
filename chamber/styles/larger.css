@@ -13,9 +13,10 @@
         padding: 20px;
     }
 
-    header h2 {
+    header h1 {
         color: var(--secondary-color);
         letter-spacing: .23rem;
+        font-size: medium;
     }
 
     nav {
