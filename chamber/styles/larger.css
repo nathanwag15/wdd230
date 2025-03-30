@@ -16,7 +16,7 @@
     header h1 {
         color: var(--secondary-color);
         letter-spacing: .23rem;
-        font-size: medium;
+        font-size: large;
     }
 
     nav {
