@@ -21,18 +21,25 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
     <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
     <header>
-        <h1>Logan Chamber of Commerce</h1>
+        <div class="navigation-wrapper">
+            <h1>Logan Chamber of Commerce</h1>
+            <a id="menu"></a>
+        </div>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="discover.html">Discover</a>
-            <a href="directory.html">Directory</a>
-            <a href="join.html">Join</a>
+            <div class="navigation">
+                <a class="navigation-item" href="index.html" title="Home">Home</a>
+                <a href="discover.html" title="About Us">Discover</a>
+                <a href="directory.html" title="Directory">Directory</a>
+                <a href="join.html" title="Join">Join</a>
+            </div>
         </nav>
+
     </header>
     <main>
         <section>
