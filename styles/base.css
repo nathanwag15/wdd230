@@ -22,12 +22,21 @@ header h1 {
 
 }
 
+header img {
+    width: 100px;
+}
+
 nav {
 
     background-color: #37393A;
     width: 100vw;
     padding: 10px 25px 10px 25px;
+
+}
+
+nav a {
     color: white;
+    text-decoration: none;
 }
 
 nav ul {
