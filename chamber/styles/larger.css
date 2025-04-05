@@ -50,6 +50,15 @@
         background-color: var(--secondary-color);
     }
 
+    main {
+        margin-left: 7%;
+        margin-right: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .hero-image-wrapper {
         background-image: url(../images/Logan.png);
         padding: 100px;
@@ -118,5 +127,67 @@
 
     }
 
+    .discover-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+        padding-top: 15px;
+    }
 
+    .sidebar {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    .sidebar h1 {
+        text-align: center;
+        font-size: large;
+        border-bottom: 2px solid transparent;
+        background-image: linear-gradient(to right,
+                transparent,
+                #435836,
+                transparent);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100% 2px;
+
+    }
+
+    .data-wrapper {
+        background-color: #435836;
+        border-radius: 10px;
+        padding: 0px 10px 10px 10px;
+    }
+
+    .sidebar h3 {
+        font-size: medium;
+        text-align: center;
+        color: var(--secondary-color);
+    }
+
+    .sidebar ul {
+        margin: 7px;
+        color: var(--secondary-color);
+        padding: 0px;
+    }
+
+    .sidebar li {
+        font-size: 1rem;
+        list-style: none;
+        padding: 5px;
+    }
+
+    .main-wrapper {
+        background-color: pink;
+    }
+
+    .sidebar-section-wrapper {
+        border: 2px solid var(--accent-color);
+        border-radius: 10px;
+        padding: 10px;
+        display: grid;
+        grid-gap: 10px;
+    }
 }
