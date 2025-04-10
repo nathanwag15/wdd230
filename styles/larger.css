@@ -1,4 +1,56 @@
 @media screen and (min-width: 600px) {
+    header {
+        background-color: navy;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 30px 15px 30px;
+        color: #E8EEF2;
+        margin: 0px;
+        max-width: 100%;
+    }
+
+    header img {
+        display: block;
+    }
+
+    .navigation-wrapper {
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .navigation a {
+        font-size: 1rem;
+        color: white;
+        text-decoration: none;
+        display: flex;
+    }
+
+    nav {
+        background-color: navy;
+        list-style: none;
+
+        width: 40%;
+    }
+
+
+    #menu {
+        display: none;
+    }
+
+    a:hover {
+        color: black;
+        background-color: white;
+    }
+
     main {
         margin-left: 10%;
         margin-right: 10%;

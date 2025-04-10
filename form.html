@@ -19,18 +19,23 @@
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/form.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
 </head>
 
 <body>
     <header>
-        <img src="images/NathanWagstaff.webp">
-        <h1>Nathan Wagstaff</h1>
-
+        <div class="navigation-wrapper">
+            <img src="images/NathanWagstaff.webp">
+            <h1>Nathan Wagstaff</h1>
+            <a id="menu"></a>
+        </div>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="chamber/index.html">Chamber</a>
-            <a href="week01/chamber-site-plan.html">Site Plan</a>
-            <a href="form.html">Form</a>
+            <div class="navigation">
+                <a class="navigation-item" href="index.html">Home</a>
+                <a href="chamber/index.html">Chamber</a>
+                <a href="week01/chamber-site-plan.html">Site Plan</a>
+                <a href="form.html">Form</a>
+            </div>
         </nav>
 
     </header>
