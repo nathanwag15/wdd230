@@ -5,10 +5,26 @@ form {
     width: 500px;
 }
 
+form h1 {
+    text-align: center;
+    color: var(--primary-color)
+}
+
 form label {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+form button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1rem;
+    width: 50%;
+    align-self: center;
+    padding: 15px;
+    border: 0px;
+    border-radius: 5px;
 }
 
 #rating-label {

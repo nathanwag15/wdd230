@@ -1,6 +1,6 @@
 @media screen and (min-width: 600px) {
     header {
-        background-color: navy;
+        background-color: var(--primary-color);
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -9,10 +9,6 @@
         color: #E8EEF2;
         margin: 0px;
         max-width: 100%;
-    }
-
-    header img {
-        display: block;
     }
 
     .navigation-wrapper {
@@ -29,14 +25,15 @@
 
     .navigation a {
         font-size: 1rem;
-        color: white;
+        color: var(--secondary-color);
         text-decoration: none;
         display: flex;
     }
 
     nav {
-        background-color: navy;
+        background-color: var(--primary-color);
         list-style: none;
+        background-color: var(--primary-color);
 
         width: 40%;
     }
@@ -47,8 +44,8 @@
     }
 
     a:hover {
-        color: black;
-        background-color: white;
+        color: var(--accent-color);
+        background-color: var(--secondary-color);
     }
 
     main {
