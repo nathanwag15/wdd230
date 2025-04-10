@@ -1,0 +1,23 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 500px;
+}
+
+form label {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#rating-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rating-label input {
+    width: 100%;
+    height: 100px;
+}
