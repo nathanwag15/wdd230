@@ -7,6 +7,14 @@ body {
     color: #37393A;
 }
 
+header {
+    background-color: #37393A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
 header h1 {
     font-family: "Fredoka", sans-serif;
     display: flex;
@@ -16,32 +24,72 @@ header h1 {
     color: white;
     margin: 0px auto;
     padding: 20px;
-    background-color: #77B6EA;
-    font-weight: 500;
-    font-size: 2rem;
+    font-weight: 400;
+    font-size: 1rem;
 
 }
 
 header img {
-    width: 100px;
+    width: 50px;
 }
 
 nav {
 
     background-color: #37393A;
-    width: 100vw;
     padding: 10px 25px 10px 25px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
 
 }
 
 nav a {
     color: white;
     text-decoration: none;
+    transition: .5s;
+    padding: 5px;
+    border-radius: 5px;
 }
 
-nav ul {
+nav a:hover {
+    background-color: aqua;
+    color: black
+}
+
+nav a main {
+    width: 100%;
+}
+
+main {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    list-style-type: none;
+}
+
+.hero-image-wrapper {
+    position: relative;
+    height: 500px;
+}
+
+.hero-image-wrapper h1 {
+    position: absolute;
+    left: 10%;
+    bottom: 10px;
+    color: white
+}
+
+.hero-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.map-wrapper {
+    width: 90%;
+    height: 100px;
+}
+
+.map-wrapper iframe {
+    width: 100%;
+    height: 100%;
 }

@@ -15,22 +15,31 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
     <header>
-        <img src="images/NathanWagstaff.jpg">
-        <span>Nathan Wagstaff</span>
+        <img src="images/NathanWagstaff.webp">
+        <h1>Nathan Wagstaff</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="chamber/index.html">Chamber</a>
+            <a href="week01/chamber-site-plan.html">Site Plan</a>
+            <a href="form.html">Form</a>
+        </nav>
+
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="chamber/index.html">Chamber</a></li>
-            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
-            <li><a href="form.html">Form</a></li>
-        </ul>
-    </nav>
     <main>
+        <div class="hero-image-wrapper">
+            <h1>Sapporo Japan Temple</h1>
+            <picture>
+                <source media="(max-width:599px)" srcset="images/sapporo-japan-temple-small.webp">
+                <img src="images/sapporo-japan-temple.webp" alt="Sapporo Japan Temple">
+            </picture>
+        </div>
         <h1>"WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>
@@ -41,7 +50,7 @@
         <section class="card">
             <h2>Information</h2>
             <p>Weather</p>
-            <p>Number of Visits: 0</p>
+            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
 
         </section>
         Week 03:
@@ -49,6 +58,13 @@
             <li><a href="week03/images/landscape.webp">WebP</a></li>
             <li><a href="Week03/lazyload.html">Lazyload</a></li>
         </ul>
+
+        <div class="map-wrapper">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95272.60776313927!2d-111.92335335234884!3d41.73629051658196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87547de05542a865%3A0xa9b33d0bcbbebcd5!2sLogan%2C%20UT!5e0!3m2!1sen!2sus!4v1744257419564!5m2!1sen!2sus"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
 
     </main>
