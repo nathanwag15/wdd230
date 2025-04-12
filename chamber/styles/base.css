@@ -259,7 +259,7 @@ form h1 {
 }
 
 form label {
-    padding: 20px;
+    padding: 20px 0px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -281,7 +281,7 @@ form input {
     border: none;
     border-bottom: 2px solid var(--accent-color);
     outline: none;
-    width: 100%;
+    width: 90%;
     padding: 10px;
 }
 
