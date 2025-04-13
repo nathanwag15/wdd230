@@ -6,11 +6,12 @@
 
 body {
     margin: 0px;
-    background-color: #E8EEF2;
+    background-color: var(--secondary-color);
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #37393A;
+
 }
 
 header {
@@ -98,7 +99,7 @@ nav {
 
 }
 
-a:hover {
+.navigation a:hover {
     background-color: var(--primary-color);
 
     color: var(--secondary-color);
@@ -153,4 +154,21 @@ main {
     align-items: center;
     display: flex;
     justify-content: space-between;
+}
+
+.card li {
+    padding: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.card a:hover {
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
 }
