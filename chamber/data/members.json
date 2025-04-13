@@ -1,0 +1,76 @@
+{
+    "members": [
+        {
+            "company": "test",
+            "address": "123 Swagging Lane Logan Utah 84321",
+            "phoneNumber": "123-456-7890",
+            "website": "https://swaggington.com",
+            "image": "image.png",
+            "membershipLevel": "Gold Membership",
+            "information": "This company is a company that exists."
+        },
+        {
+            "company": "test",
+            "address": "123 Swagging Lane Logan Utah 84321",
+            "phoneNumber": "123-456-7890",
+            "website": "https://swaggington.com",
+            "image": "image.png",
+            "membershipLevel": "Gold Membership",
+            "information": "This company is a company that exists."
+        },
+        {
+            "company": "test",
+            "address": "123 Swagging Lane Logan Utah 84321",
+            "phoneNumber": "123-456-7890",
+            "website": "https://swaggington.com",
+            "image": "image.png",
+            "membershipLevel": "Gold Membership",
+            "information": "This company is a company that exists."
+        },
+        {
+            "company": "test",
+            "address": "123 Swagging Lane Logan Utah 84321",
+            "phoneNumber": "123-456-7890",
+            "website": "https://swaggington.com",
+            "image": "image.png",
+            "membershipLevel": "Gold Membership",
+            "information": "This company is a company that exists."
+        },
+        {
+            "company": "test",
+            "address": "123 Swagging Lane Logan Utah 84321",
+            "phoneNumber": "123-456-7890",
+            "website": "https://swaggington.com",
+            "image": "image.png",
+            "membershipLevel": "Gold Membership",
+            "information": "This company is a company that exists."
+        },
+        {
+            "company": "test",
+            "address": "123 Swagging Lane Logan Utah 84321",
+            "phoneNumber": "123-456-7890",
+            "website": "https://swaggington.com",
+            "image": "image.png",
+            "membershipLevel": "Gold Membership",
+            "information": "This company is a company that exists."
+        },
+        {
+            "company": "test",
+            "address": "123 Swagging Lane Logan Utah 84321",
+            "phoneNumber": "123-456-7890",
+            "website": "https://swaggington.com",
+            "image": "image.png",
+            "membershipLevel": "Gold Membership",
+            "information": "This company is a company that exists."
+        },
+        {
+            "company": "test",
+            "address": "123 Swagging Lane Logan Utah 84321",
+            "phoneNumber": "123-456-7890",
+            "website": "https://swaggington.com",
+            "image": "image.png",
+            "membershipLevel": "Gold Membership",
+            "information": "This company is a company that exists."
+        }
+    ]
+}

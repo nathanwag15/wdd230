@@ -202,4 +202,19 @@
     form {
         width: 520px;
     }
+
+    .weather-wrapper {
+        flex-direction: row;
+
+    }
+
+    .squares-wrapper {
+        flex-direction: row;
+    }
+
+    .square>.image-wrapper img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
 }
