@@ -22,6 +22,8 @@ function displayLinks(data) {
         let card = document.createElement('section');
         let name = document.createElement('h2');
 
+        card.setAttribute('class', 'card');
+
         name.textContent = `${week.week}`;
         card.appendChild(name);
         week.links.forEach((link) => {
