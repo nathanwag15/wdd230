@@ -1,6 +1,4 @@
-const currentTemp = document.querySelector('#current-temperature');
-const weatherIcon = document.querySelector('#weather-icon');
-const currentConditions = document.querySelector('#current-conditions')
+const weather = document.querySelector('.weather');
 
 
 
@@ -22,12 +20,29 @@ async function apiFetch() {
 };
 
 function displayResults(data) {
+    let currentTemp = document.createElement('span');
+    let weatherIcon = document.createElement('img');
+    let currentConditions = document.createElement('span');
+
     currentTemp.textContent = data.main.temp + " F ";
+
     const iconSrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+
+
+    weatherIcon.setAttribute('alt', data.weather[0].description);
     weatherIcon.setAttribute('src', iconSrc);
+    weatherIcon.setAttribute('width', 100);
+
+
     const description = data.weather[0].description;
     const capitalizedDescription = description.charAt(0).toUpperCase() + description.slice(1);
-    currentConditions.textContent = "  " + capitalizedDescription;
+    currentConditions.textContent = " " + capitalizedDescription;
+    // currentConditions.textContent = "  " + capitalizedDescription;
+
+    weather.appendChild(currentTemp);
+    weather.appendChild(weatherIcon);
+    weather.appendChild(currentConditions);
+
 };
 
 apiFetch();
