@@ -21,11 +21,21 @@ function displayMembers(data) {
     members.forEach((member) => {
         let card = document.createElement('section');
         let name = document.createElement('h2');
+        let info = document.createElement('p');
+        let image = document.createElement('img');
+
 
         card.setAttribute('class', 'card');
+        image.setAttribute('src', member.image);
+        image.setAttribute('alt', `${name} image`);
+        image.setAttribute('width', 100);
 
         name.textContent = `${member.company}`;
+        info.textContent = `${member.information}`;
         card.appendChild(name);
+        card.appendChild(info);
+
+
         // week.links.forEach((link) => {
         //     console.log(link);
         //     let newAnchor = document.createElement('a');
