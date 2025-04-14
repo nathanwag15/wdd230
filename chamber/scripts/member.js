@@ -23,30 +23,42 @@ function displayMembers(data) {
         let name = document.createElement('h2');
         let info = document.createElement('p');
         let image = document.createElement('img');
+        let phoneNumber = document.createElement('p');
+        let link = document.createElement('a');
+        let membershipLevel = document.createElement('p');
+        let address = document.createElement('p');
 
 
-        let imageURL = `https://nathanwag15.github.io/wdd230/chamber/${member.image}`;
+        let imageWrapper = document.createElement('div');
+        let companyInfo = document.createElement('div')
+
+
+
         card.setAttribute('class', 'card');
-        image.setAttribute('src', imageURL);
+        image.setAttribute('src', member.image);
         image.setAttribute('alt', `${name} image`);
-        image.setAttribute('width', 100);
+        imageWrapper.setAttribute('class', "image-wrapper");
+        companyInfo.setAttribute('class', "info-wrapper");
+        link.setAttribute("href", member.url);
 
 
+        link.appendChild(document.createTextNode("Visit Us"));
+        membershipLevel.textContent = `Membership Level: ${member.membershipLevel}`;
         name.textContent = `${member.company}`;
         info.textContent = `${member.information}`;
-        card.appendChild(name);
-        card.appendChild(info);
+        phoneNumber.textContent = `Contact Us: ${member.phoneNumber}`;
+        address.textContent = `Our Address: ${member.address}`;
 
+        card.appendChild(imageWrapper);
+        card.appendChild(companyInfo);
 
-        // week.links.forEach((link) => {
-        //     console.log(link);
-        //     let newAnchor = document.createElement('a');
-        //     let newListItem = document.createElement('li');
-        //     newAnchor.setAttribute('href', link.url);
-        //     newAnchor.appendChild(document.createTextNode(`${link.title}`));
-        //     newListItem.appendChild(newAnchor);
-        //     card.appendChild(newListItem);
-        // })
+        imageWrapper.appendChild(image);
+        companyInfo.appendChild(name);
+        companyInfo.appendChild(info);
+        companyInfo.appendChild(phoneNumber);
+        companyInfo.appendChild(address);
+        companyInfo.appendChild(membershipLevel);
+        companyInfo.appendChild(link);
 
         cards.appendChild(card);
 

@@ -217,4 +217,23 @@
         height: 500px;
         object-fit: cover;
     }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 0px 10px;
+    }
+
+    .menu {
+        display: block
+    }
+
+    .menu button {
+        background-color: var(--secondary-color);
+        border: 2px solid var(--primary-color);
+        color: var(--primary-color);
+        padding: 10px 20px;
+        border-radius: 5px;
+        outline: none;
+    }
 }
