@@ -25,10 +25,11 @@ function displayMembers(data) {
         let image = document.createElement('img');
 
 
-        let imageURL = `https://nathanwag15.github.io/wdd230/chamber/images/${member.image}`
+        let imageURL = `https://nathanwag15.github.io/wdd230/chamber/${member.image}`;
         card.setAttribute('class', 'card');
         image.setAttribute('src', imageURL);
         image.setAttribute('alt', `${name} image`);
+        image.setAttribute('width', 100);
 
 
         name.textContent = `${member.company}`;
