@@ -334,7 +334,6 @@ textarea:focus {
 }
 
 .textarea-description {
-    align-self: left;
     padding-left: 0px;
     display: block;
 }
