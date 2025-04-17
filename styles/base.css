@@ -173,7 +173,3 @@ main {
     color: var(--secondary-color);
     background-color: var(--accent-color);
 }
-
-.main-wrapper picture img {
-    width: 100vw;
-}
