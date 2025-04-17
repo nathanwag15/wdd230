@@ -62,7 +62,8 @@
             "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
             "membershipLevel": "Bronze Membership",
             "information": "Marketing solutions for startups and small businesses looking to scale fast."
-        }.{
+        },
+        {
             "company": "Summit Peak Apparel",
             "address": "101 Mountain Ridge Dr, Logan, Utah 84321",
             "phoneNumber": "435-777-8899",
