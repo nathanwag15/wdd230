@@ -139,6 +139,7 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 15px;
+        height: fit-content;
     }
 
     .sidebar h1 {
@@ -152,13 +153,14 @@
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: 100% 2px;
-
+        height: fit-content;
     }
 
     .data-wrapper {
         background-color: #435836;
         border-radius: 10px;
         padding: 0px 10px 10px 10px;
+        height: fit-content;
     }
 
     .sidebar h3 {
@@ -171,6 +173,7 @@
         margin: 7px;
         color: var(--secondary-color);
         padding: 0px;
+
     }
 
     .sidebar li {
@@ -180,8 +183,11 @@
     }
 
     .main-wrapper {
-        background-color: pink;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
 
     .sidebar-section-wrapper {
         border: 2px solid var(--accent-color);
@@ -259,4 +265,19 @@
         font-weight: 500;
     }
 
+    .company-spotlight {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 0px 10px;
+    }
+
+    .banner {
+        display: flex;
+        padding: 10px;
+        background-color: var(--accent-color);
+        color: var(--secondary-color);
+        border-radius: 5px;
+        width: 50%;
+        justify-content: space-around;
+    }
 }

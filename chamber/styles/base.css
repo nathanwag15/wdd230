@@ -52,7 +52,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 330px;
+    height: 430px;
     justify-content: space-around;
     border-radius: 3px;
     padding: 15px;
@@ -64,6 +64,7 @@ header h1 {
     letter-spacing: .23rem;
     font-size: large;
 }
+
 
 
 
@@ -210,6 +211,8 @@ nav {
     content: "X";
 }
 
+
+
 .navigation {
     list-style: none;
     margin: 0px auto;
@@ -243,6 +246,12 @@ a:hover {
 }
 
 .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -420,4 +429,47 @@ textarea:focus {
 
 .menu {
     display: none;
+}
+
+#banner-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    padding: 10px;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.banner p {
+    text-align: center;
+}
+
+.banner button {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    text-decoration: none;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 3px;
+    transition: .2s;
+    outline: none;
+
+}
+
+.visits {
+    text-align: center;
+}
+
+picture figcaption {
+    text-align: center;
+    font-size: large;
+    padding: 10px;
 }

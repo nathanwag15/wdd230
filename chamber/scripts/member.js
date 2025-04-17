@@ -26,21 +26,7 @@ function displayMembers(data, cards) {
 };
 
 
-function randomGoldMemberCardGenerator(members) {
-    const premiumMembers = [];
 
-    members.forEach((member) => {
-        if (member.membershipLevel == "Gold Membership" || member.membershipLevel == "Silver Membership") {
-            premiumMembers.push(member);
-
-        }
-    })
-
-    console.log(premiumMembers);
-    const shuffled = premiumMembers.sort(() => 0.5 - Math.random());
-    console.log(shuffled.slice(0, 3));
-
-};
 
 
 
