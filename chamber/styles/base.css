@@ -380,11 +380,11 @@ textarea:focus {
 
 .card {
     display: grid;
-    width: 365px;
+    width: 355px;
+    height: 350px;
     grid-template-columns: 1fr 3fr;
-    padding: 20px 0px;
+    padding: 20px 10px;
     margin: 20px 0px;
-    height: fit-content;
     border: 2px solid var(--accent-color);
     border-radius: 5px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);

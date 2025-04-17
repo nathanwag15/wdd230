@@ -62,6 +62,68 @@
             "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
             "membershipLevel": "Bronze Membership",
             "information": "Marketing solutions for startups and small businesses looking to scale fast."
+        }.{
+            "company": "Summit Peak Apparel",
+            "address": "101 Mountain Ridge Dr, Logan, Utah 84321",
+            "phoneNumber": "435-777-8899",
+            "website": "https://swaggington.com",
+            "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
+            "membershipLevel": "NP Membership",
+            "information": "Outdoor clothing company focused on functional fashion and sustainable fabrics."
+        },
+        {
+            "company": "Blue Sage Wellness",
+            "address": "212 Serenity St, Logan, Utah 84321",
+            "phoneNumber": "435-123-4567",
+            "website": "https://swaggington.com",
+            "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
+            "membershipLevel": "Silver Membership",
+            "information": "Holistic health studio offering yoga, massage therapy, and nutritional guidance."
+        },
+        {
+            "company": "Ridgeview Developers",
+            "address": "877 Blueprint Blvd, Logan, Utah 84321",
+            "phoneNumber": "435-888-6543",
+            "website": "https://swaggington.com",
+            "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
+            "membershipLevel": "Gold Membership",
+            "information": "Real estate and construction company specializing in custom mountain homes."
+        },
+        {
+            "company": "Northern Pine Books",
+            "address": "64 Storyline Ave, Logan, Utah 84321",
+            "phoneNumber": "435-654-0001",
+            "website": "https://swaggington.com",
+            "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
+            "membershipLevel": "Bronze Membership",
+            "information": "Independent bookstore known for local authors, cozy vibes, and great coffee."
+        },
+        {
+            "company": "Wasatch Coding Academy",
+            "address": "411 Dev Loop, Logan, Utah 84321",
+            "phoneNumber": "435-777-4422",
+            "website": "https://swaggington.com",
+            "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
+            "membershipLevel": "Gold Membership",
+            "information": "Tech education company teaching web development and software engineering."
+        },
+        {
+            "company": "Canyon Ridge Farms",
+            "address": "350 Valley View Rd, Logan, Utah 84321",
+            "phoneNumber": "435-321-1199",
+            "website": "https://swaggington.com",
+            "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
+            "membershipLevel": "NP Membership",
+            "information": "Family-run farm providing organic produce and hosting weekend markets."
+        },
+        {
+            "company": "Echo Media Group",
+            "address": "500 Signal Lane, Logan, Utah 84321",
+            "phoneNumber": "435-222-3333",
+            "website": "https://swaggington.com",
+            "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
+            "membershipLevel": "Silver Membership",
+            "information": "Digital marketing agency offering branding, SEO, and content strategy services."
         }
     ]
 }
