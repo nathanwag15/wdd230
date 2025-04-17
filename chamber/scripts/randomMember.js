@@ -22,15 +22,14 @@ function randomGoldMemberCardGenerator(members) {
         }
     })
 
-    console.log(premiumMembers);
+
     const shuffled = premiumMembers.sort(() => 0.5 - Math.random());
-    console.log(shuffled.slice(0, 3));
-
-    shuffled.forEach((member) => {
-        console.log(member);
+    const consolidatedShuffle = shuffled.slice(0, 3);
+    console.log(consolidatedShuffle);
+    consolidatedShuffle.forEach((member) => {
         displayMember(member, randomCards);
-
     })
+
 
 };
 
