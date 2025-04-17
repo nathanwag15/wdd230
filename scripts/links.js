@@ -40,10 +40,6 @@ function displayLinks(data) {
 
     })
 
-    // const iconSrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    // weatherIcon.setAttribute('src', iconSrc);
-    // const description = data.weather[0].description;
-    // const capitalizedDescription = description.charAt(0).toUpperCase() + description.slice(1);
-    // currentConditions.textContent = "  " + capitalizedDescription;
+
 };
 

@@ -104,10 +104,8 @@ footer p {
     margin-right: 20%;
 }
 
-.weather-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.weather-section h2 {
+    text-align: center;
 }
 
 .weather-wrapper h2 {
@@ -350,8 +348,21 @@ textarea:focus {
 .weather {
     display: flex;
     align-items: center;
+    flex-direction: column;
     font-size: large;
     font-weight: 500;
+}
+
+.day-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--accent-color);
+    border-radius: 5px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+
 }
 
 #members-wrapper {

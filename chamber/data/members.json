@@ -1,67 +1,67 @@
 {
     "members": [
         {
-            "company": "Test",
-            "address": "123 Swagging Lane Logan Utah 84321",
-            "phoneNumber": "123-456-7890",
+            "company": "Pinecone Creative Co.",
+            "address": "457 Aspen Drive, Logan, Utah 84321",
+            "phoneNumber": "435-983-2222",
             "website": "https://swaggington.com",
             "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
             "membershipLevel": "Gold Membership",
-            "information": "This company is a company that exists."
+            "information": "A boutique design firm specializing in eco-friendly branding and digital experiences."
         },
         {
-            "company": "Test",
-            "address": "123 Swagging Lane Logan Utah 84321",
-            "phoneNumber": "123-456-7890",
+            "company": "Cache Tech Solutions",
+            "address": "920 Innovation Way, Logan, Utah 84321",
+            "phoneNumber": "435-555-3109",
             "website": "https://swaggington.com",
             "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
-            "membershipLevel": "Gold Membership",
-            "information": "This company is a company that exists."
+            "membershipLevel": "NP Membership",
+            "information": "Offering IT services and software development to businesses across northern Utah."
         },
         {
-            "company": "Test",
-            "address": "123 Swagging Lane Logan Utah 84321",
-            "phoneNumber": "123-456-7890",
+            "company": "Beartooth Outdoor Gear",
+            "address": "202 Trailblazer Ln, Logan, Utah 84321",
+            "phoneNumber": "435-222-8977",
             "website": "https://swaggington.com",
             "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
-            "membershipLevel": "Gold Membership",
-            "information": "This company is a company that exists."
+            "membershipLevel": "Bronze Membership",
+            "information": "Locally owned retailer specializing in hiking, camping, and snow gear."
         },
         {
-            "company": "Test",
-            "address": "123 Swagging Lane Logan Utah 84321",
-            "phoneNumber": "123-456-7890",
+            "company": "Logan Bean Roasters",
+            "address": "88 Caffeine Ave, Logan, Utah 84321",
+            "phoneNumber": "435-555-1212",
             "website": "https://swaggington.com",
             "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
             "membershipLevel": "Gold Membership",
-            "information": "This company is a company that exists."
+            "information": "Purveyors of fine locally roasted coffee, proudly sourcing sustainable beans."
         },
         {
-            "company": "Test",
-            "address": "123 Swagging Lane Logan Utah 84321",
-            "phoneNumber": "123-456-7890",
+            "company": "Swift Accounting Group",
+            "address": "301 Ledger Street, Logan, Utah 84321",
+            "phoneNumber": "435-909-3456",
             "website": "https://swaggington.com",
             "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
-            "membershipLevel": "Gold Membership",
-            "information": "This company is a company that exists."
+            "membershipLevel": "Silver Membership",
+            "information": "Helping small businesses balance their books and thrive financially since 2009."
         },
         {
-            "company": "Test",
-            "address": "123 Swagging Lane Logan Utah 84321",
-            "phoneNumber": "123-456-7890",
+            "company": "Greenleaf Landscaping",
+            "address": "59 Garden View Rd, Logan, Utah 84321",
+            "phoneNumber": "435-321-6789",
             "website": "https://swaggington.com",
             "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
-            "membershipLevel": "Gold Membership",
-            "information": "This company is a company that exists."
+            "membershipLevel": "NP Membership",
+            "information": "Professional lawn and landscape services committed to sustainable beautification."
         },
         {
-            "company": "Test",
-            "address": "123 Swagging Lane Logan Utah 84321",
-            "phoneNumber": "123-456-7890",
+            "company": "Bear River Marketing",
+            "address": "701 Skyline Blvd, Logan, Utah 84321",
+            "phoneNumber": "435-555-9876",
             "website": "https://swaggington.com",
             "image": "https://nathanwag15.github.io/wdd230/chamber/images/image.webp",
-            "membershipLevel": "Gold Membership",
-            "information": "This company is a company that exists."
+            "membershipLevel": "Bronze Membership",
+            "information": "Marketing solutions for startups and small businesses looking to scale fast."
         }
     ]
 }
